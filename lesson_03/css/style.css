@@ -1,0 +1,46 @@
+@import url("reset.css");
+
+.logo {
+	color: #717736;
+}
+
+.nav {
+	color: #2196f3;
+}
+
+h1 {
+	color: #ff075c;
+	font-size: 24px;
+}
+
+p {
+	color: #795548;
+}
+
+.header p {
+	color: #433029;
+}
+
+h2 {
+	color: #aa2e58;
+}
+
+.wrap_2 .clause {
+	color: #2e9765;
+}
+
+.wrap_3>p.page {
+	color: #27d7d7;
+}
+
+.wrap_4 ul {
+	color: #fce61e;
+}
+
+.item-blue {
+	color: #2196f3;
+}
+
+span.name {
+	color: #3d202089;
+}
