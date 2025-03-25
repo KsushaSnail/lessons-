@@ -1,0 +1,102 @@
+@import url("reset.css");
+@import url("font.css");
+@import url("https://fonts.googleapis.com/css?family=Cardo:regular,700&display=swap");
+
+body {
+	/*для макету*/
+	font-family: "Poppins", sans-serif;
+	/* link-html*/
+	color: #808080;
+	/*для макету*/
+	font-size: 20px;
+	line-height: 1.34;
+
+}
+
+.logo {
+	color: #23241f;
+	font-size: 24px;
+}
+
+.nav a {
+	color: #2196f3;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #e7447c8f;
+}
+
+h1 {
+	font-family: "KoPubBatang", serif;
+	/* font.css*/
+	color: #000000a6;
+	text-shadow: -7px 5px 7px #000000a6;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.7;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+.header span {
+	color: #b52a5a;
+	font-size: 22px;
+	font-style: oblique;
+}
+
+.main-wrap h2 {
+	color: #1c6dad;
+	text-shadow: -3px 2px 3px #1c6dad;
+	font-size: 24px;
+	line-height: 1.4;
+	font-weight: 500;
+	letter-spacing: 5px;
+	text-align: right;
+}
+
+.main-wrap ul {
+	color: #006fc6;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #d4303096;
+	text-align: center;
+}
+
+.wrap_1 {
+	font-family: 'Cardo', serif;
+	color: #13a962;
+	font-size: 16px;
+	/*@import-css*/
+}
+
+.wrap_3 {
+	color: #fce61e;
+}
+
+.wrap_3 span {
+	color: #d40f22;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.wrap {
+	/*для макету*/
+	font-size: 18px;
+	line-height: 1.5;
+	/*для макету*/
+}
+
+.wrap h2 {
+	/*для макету*/
+	color: #1A1A1A;
+	font-weight: 500;
+	font-size: 20px;
+	/*для макету*/
+}
+
+footer li a {
+	color: #1c6dad;
+	font-size: 16px;
+	text-transform: lowercase;
+	letter-spacing: 4px;
+}
