@@ -1,0 +1,99 @@
+@import url("reset.css");
+@import url("font.css");
+
+
+body {
+	font-family: Montserrat, sans-serif;
+}
+
+main {
+	background-color: #231F8B;
+	color: #FFF;
+}
+
+.wrapper {
+	width: 1050px;
+	margin: 0 auto;
+	padding: 112px 0;
+}
+
+.header {
+	width: 765px;
+}
+
+h6 {
+	color: #5A54F2;
+	font-weight: 700;
+	line-height: 1.71;
+	letter-spacing: 0.2px;
+}
+
+h2,
+h3 {
+	font-family: circularSTD, sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 36px;
+	margin: 10px 0;
+}
+
+.header p {
+	font-family: circularSTD, sans-serif;
+	font-weight: 450;
+	margin-bottom: 70px;
+}
+
+p {
+	line-height: 1.42;
+	letter-spacing: 0.2px;
+}
+
+.wrap-section {
+	font-size: 0;
+}
+
+.section {
+	background-color: #FFF;
+	color: #737373;
+	width: 230px;
+	display: inline-block;
+	padding: 35px 40px;
+	vertical-align: top;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+.card-section {
+	margin-top: 48px;
+}
+
+h3 {
+	color: #252B42;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	margin: 20px 0;
+}
+
+span {
+	display: inline-block;
+	width: 50px;
+	height: 2px;
+	background-color: #E74040;
+	margin-bottom: 20px;
+}
+
+.activ {
+	background-color: #5A54F2;
+	color: #FFF;
+}
+
+.activ h3 {
+	color: #FFF;
+}
+
+.activ span {
+	background-color: #FFF;
+}
