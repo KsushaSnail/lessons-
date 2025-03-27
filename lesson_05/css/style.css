@@ -57,7 +57,7 @@ p {
 .section {
 	background-color: #FFF;
 	color: #737373;
-	width: 230px;
+	max-width: 230px;
 	display: inline-block;
 	padding: 35px 40px;
 	vertical-align: top;
