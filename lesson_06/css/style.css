@@ -1,0 +1,149 @@
+@import url("reset.css");
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	background-color: #FFF;
+}
+
+.header,
+.footer {
+	min-height: 100px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.wrap-ecobazar {
+	font-family: "Poppins", sans-serif;
+}
+
+.wrap-block-1 {
+	padding-top: 32px;
+	max-width: 648px;
+	width: 100%;
+	font-size: 14px;
+	color: #808080;
+	line-height: 1.5;
+}
+
+.wrap-block-1 p {
+	margin-bottom: 20px;
+}
+
+.item {
+	background: url("../img/arrow.svg") 0 0 / 20px no-repeat;
+	padding-left: 28px;
+	/*запобіжник*/
+	min-height: 20px;
+	margin-bottom: 14px;
+}
+
+/* ----- -//////----- - */
+.wrap-hydra {
+	font-family: "Montserrat", sans-serif;
+	color: #FFF;
+	background-color: #302C42;
+	padding: 88px 0 0 72px;
+}
+
+.hydra-block-1 {
+	max-width: 1272px;
+	border-radius: 90px;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	padding: 54px 12px 58px 39px;
+	margin-bottom: 94px;
+}
+
+.hydra-block-1 .contacts {
+	display: inline-block;
+	background-repeat: no-repeat;
+	min-height: 70px;
+}
+
+.contacts h3 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.contacts p {
+	font-size: 14px;
+}
+
+.location {
+	background-image: url("../img/location-icon.svg");
+	padding: 0 42px 0 70px;
+}
+
+.phone {
+	background-image: url("../img/vector.svg"), url("../img/phone-icon.svg");
+	background-position: 0 0, 48px 0;
+	padding: 0 66px 0 136px;
+}
+
+.mail {
+	background-image: url("../img/vector.svg"), url("../img/mail-icon.svg");
+	background-position: 0 0, 48px 0;
+	padding-left: 138px;
+}
+
+.hydra-block-2 {
+	background-image: url("../img/vector-1.png"), url("../img/vector-2.png");
+	background-repeat: no-repeat;
+	background-position: -96px 2px, -172px 218px;
+}
+
+.hydra-block-2 img {
+	border-radius: 240px 100px;
+	margin-bottom: 151px;
+	margin-right: 108px;
+}
+
+.hydra-text {
+	display: inline-block;
+	max-width: 630px;
+	padding-top: 47px;
+
+}
+
+.hydra-text h2,
+h3 {
+	font-size: 36px;
+}
+
+.hydra-text h2,
+h3,
+.btn {
+	text-transform: capitalize;
+}
+
+.hydra-text h3 {
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.hydra-text h2 {
+	color: rgba(255, 255, 255, 0.95);
+	font-weight: 300;
+	margin-bottom: 42px;
+}
+
+.hydra-text p {
+	margin-bottom: 28px;
+}
+
+.hydra-text .btn {
+	color: #343045;
+	font-size: 12px;
+	font-weight: 700;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	width: 214px;
+	height: 48px;
+}
