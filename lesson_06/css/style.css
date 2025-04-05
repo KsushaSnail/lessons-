@@ -97,6 +97,7 @@
 	background-image: url("../img/vector-1.png"), url("../img/vector-2.png");
 	background-repeat: no-repeat;
 	background-position: -96px 2px, -172px 218px;
+	width: 100%;
 }
 
 .hydra-block-2 img {
