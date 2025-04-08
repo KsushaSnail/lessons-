@@ -71,6 +71,10 @@
 	max-width: 390px;
 }
 
+.card img {
+	height: 266px;
+}
+
 .card h3 {
 	color: #000;
 	font-size: 22px;
