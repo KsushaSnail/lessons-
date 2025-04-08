@@ -1,0 +1,227 @@
+@import url("reset.css");
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	background-color: #FFF;
+
+}
+
+.header,
+.footer {
+	min-height: 100px;
+}
+
+.wrapp-content {
+	color: #4F4F4F;
+	font-size: 15px;
+	font-family: "Inter", sans-serif;
+	max-width: 1776px;
+	margin: 0 auto;
+}
+
+.block-our h2 {
+	font-size: 38px;
+	color: #FFF;
+}
+
+.header-our {
+	font-weight: 700;
+}
+
+[class*="container"] {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+}
+
+.block-our {
+	background-color: #412672;
+	padding: 61px 0 101px 288px;
+}
+
+.block-our>*:not(:last-child) {
+	margin-bottom: 31px;
+}
+
+.cards-team {
+	font-size: 0;
+}
+
+.cards-team .card {
+	display: inline-block;
+	background-color: #FFF;
+	box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+	max-width: 387px;
+	font-size: 15px;
+	padding: 20px 20px 20px 20px;
+}
+
+.card>*:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.card:not(:last-child) {
+	margin-right: 20px;
+}
+
+.card:hover {
+	background-color: #FFBE48;
+	box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+	max-width: 390px;
+}
+
+.card h3 {
+	color: #000;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.card p,
+a {
+	line-height: 1.26;
+}
+
+.card p {
+	min-height: 76px;
+}
+
+.card a {
+	color: #FE3F3F;
+}
+
+.card a:hover {
+	text-decoration: underline;
+}
+
+/* --- */
+.wrap-best {
+	padding: 153px 0 101px 288px;
+}
+
+.block-best {
+	max-width: 518px;
+
+}
+
+.block-best h2 {
+	color: #412672;
+	font-size: 34px;
+}
+
+.block-best p {
+	color: #412672;
+	font-size: 22px;
+}
+
+.block-best>*:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.block-best li {
+	font-size: 20px;
+	line-height: 2.55;
+}
+
+.block-best li::before {
+	content: "";
+	background-image: url("../img/icon.svg");
+	width: 29px;
+	height: 29px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+/* Game */
+.wrap-game {
+	max-width: 1000px;
+	background-color: #c8c1c1;
+	padding: 30px;
+	color: #FFF;
+	font-size: 14px;
+}
+
+.wrap-game h2 {
+	font-weight: 700;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.start,
+.finish {
+	background-color: #7e60b5;
+	border-radius: 10px;
+	font-size: 18px;
+	width: 80px;
+	padding: 10px;
+	text-align: center;
+}
+
+[class*="step"]:not(.start) {
+	background-color: #FE3F3F;
+	text-align: center;
+	visibility: hidden;
+}
+
+.step-1 {
+	width: 210px;
+	height: 40px;
+	margin-left: 34px;
+}
+
+.step-2 {
+	width: 37px;
+	height: 223px;
+	margin-left: 207px;
+}
+
+.step-3 {
+	width: 200px;
+	height: 26px;
+	margin-left: 207px;
+}
+
+.step-4 {
+	width: 17px;
+	height: 88px;
+	margin-left: 389px;
+}
+
+.step-5 {
+	width: 201px;
+	height: 16px;
+	margin-left: 205px;
+}
+
+.step-6 {
+	width: 14px;
+	height: 80px;
+	margin-left: 205px;
+}
+
+.step-7 {
+	width: 280px;
+	height: 20px;
+	margin-left: 205px;
+}
+
+.step-8 {
+	width: 280px;
+	height: 16px;
+	margin-left: 456px;
+}
+
+.step-9 {
+	width: 12px;
+	height: 70px;
+	margin-left: 723px;
+}
+
+.finish {
+	margin-left: 691px;
+}
+
+.game-field>*:hover+*,
+.game-field>*:hover {
+	visibility: visible;
+}
