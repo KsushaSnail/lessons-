@@ -1,0 +1,26 @@
+@import url("reset.css");
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.header,
+.footer {
+	min-height: 100px;
+	font-weight: 600;
+}
+
+.page {
+	font-family: "Poppins", sans-serif;
+	color: var(--Gray-Scale-Gray-900, #1A1A1A);
+	font-size: 14px;
+}
+
+[class*="__container"] {
+	background-color: var(--Gray-Scale-White, #FFF);
+	padding: 15px;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1320px;
+}
