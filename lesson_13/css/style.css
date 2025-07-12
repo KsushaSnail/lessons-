@@ -47,7 +47,10 @@ main>img {
 	margin-bottom: 31px;
 }
 
-.wrap-team__title {}
+.wrap-team__title {
+	display: flex;
+	flex-direction: column;
+}
 
 .title-section {
 	color: #fff;
@@ -143,6 +146,8 @@ main>img {
 }
 
 .wrap-best__title {
+	display: flex;
+	flex-direction: column;
 	font-size: 34px;
 }
 
