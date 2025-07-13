@@ -168,7 +168,7 @@ main>img {
 	gap: 15px;
 }
 
-.faculty-best__item>li:not(:last-child) {
+.wrap-best__list:not(:last-child) {
 	margin-bottom: 21px;
 }
 
