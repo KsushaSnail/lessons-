@@ -168,7 +168,7 @@ main>img {
 	gap: 15px;
 }
 
-.wrap-best__list:not(:last-child) {
+.wrap-best__list>*:not(:last-child) {
 	margin-bottom: 21px;
 }
 
